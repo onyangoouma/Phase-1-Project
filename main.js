@@ -64,35 +64,36 @@ document.addEventListener('DOMContentLoaded', (e) => {
                 console.log(error);
             })
     }
-// event listeners
-selectCountry.addEventListener('change', (e) => {
-    e.preventDefault();
-    const country = e.target.value;
-    retrieveTopStories({ country });
-});
 
-searchInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter' && e.target.value.length > 0) {
+    selectCountry.addEventListener('change', (e) => {
         e.preventDefault();
-        const query = e.target.value;
-        retrieveTopStories({ query })
-    }
+        const country = e.target.value;
+        retrieveTopStories({ country });
+    });
 
-});
+    searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && e.target.value.length > 0) {
+            e.preventDefault();
+            const query = e.target.value;
+            retrieveTopStories({ query })
+        }
 
-document.querySelectorAll('.category-button').forEach(button => {
-    button.addEventListener('click', (e) => {
-        e.preventDefault();
-        let category = e.target.textContent;
-        category = category === 'World' ? 'general' : category;
-        retrieveTopStories({ category: category.toLowerCase() });
+    });
 
-        const current = document.querySelector('.active');
-        current.classList.remove('active');
-        button.classList.add('active');
+    document.querySelectorAll('.category-button').forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            let category = e.target.textContent;
+            category = category === 'World' ? 'general' : category;
+            retrieveTopStories({ category: category.toLowerCase() });
+
+            const current = document.querySelector('.active');
+            current.classList.remove('active');
+            button.classList.add('active');
+        })
     })
-})
-    // retrieveTopStories({})
+
+    retrieveTopStories({})
 })
 
 function stripHtml(html) {
