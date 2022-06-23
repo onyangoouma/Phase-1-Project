@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
                 console.log(error);
             })
     }
+    // event listeners
 
     selectCountry.addEventListener('change', (e) => {
         e.preventDefault();
