@@ -30,13 +30,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
                     limit=11`;
         url = proxy + encodeURIComponent(url.replace(/\s/g, ''));
 
-        fetch(url)
-            .then((response) => response.json())
-            .then((response) => {
-                const articles = JSON.parse(response.contents).articles;
-                const cards = articles
-                    .filter(article => article.content !== null && article.urlToImage !== null)
-                    .map(article => {
+        
                         return `
                         <div class="card my-3" style="width: 16rem;">
                             <div style="height: 150;">
