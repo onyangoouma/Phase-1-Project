@@ -11,8 +11,6 @@ RawBlame
     list-style: none;
 }
 
-
-
 h2 {
     color: teal;
 }
@@ -101,6 +99,7 @@ header {
   .footer-container {
     background-color:black;
     padding-bottom:4rem;
+    position: relative;
  }
  .footer {
     width: 100%;
@@ -120,6 +119,16 @@ header {
  .footer-heading h2 {
     margin-bottom: 2rem;
  }
+ .footer-container #footer-text{
+  position: absolute;
+  margin-bottom: 0px;
+  bottom: 2px;
+  color: teal;
+  font-size: 14px;
+  text-align: center;
+  padding: 8px;
+}
+
  .footer-heading a {
     color: aliceblue;
     text-decoration: none;
