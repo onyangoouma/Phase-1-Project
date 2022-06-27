@@ -1,14 +1,11 @@
 # Phase-1-Project
 My Daily news
 # My Daily News Web App
-<<<<<<< HEAD
-#### Brief description of application
-=======
-#### {Brief description of application
->>>>>>> 09f333fc77c1b515804b782e53e9c7b095c6b1a5
+
+
 #### By Jackson ouma
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+My project is about getting news around the World and display them to users using News API. These will help users to get updated wuth the current trends.
 ## Setup/Installation Requirements
 *InstalL VS code or any other code editor that is efficient to your computer 
 *You should be having chrome as your default browser to run the code.
@@ -18,7 +15,7 @@ My Daily news
 * run the code on the suitable editor of your choice.
 *  Congratulations!. You can now view, edit and run the code. You can also customize the code best on your desires and recommend any changes.
 ## Live link
-
+https://onyangoouma.github.io/Phase-1-Project/
 ## Known Bugs
 Landing pages are under implementation. These would impact you while using the my Daily News Application. I encourage users to have any further recommendation for any user experience while using the applicatio.
 
