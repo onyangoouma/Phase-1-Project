@@ -15,7 +15,7 @@ My project is about getting news around the World and display them to users usin
 ## Live link
 https://onyangoouma.github.io/Phase-1-Project/
 ## Known Bugs
-Landing pages are under implementation. These would impact you while using the my Daily News Application. I encourage users to have any further recommendation for any user experience while using the applicatio.
+Landing pages are under implementation. These would impact you while using the my Daily News Application. I encourage users to have any further recommendation for any user experience while using the application.
 
 ## Technologies Used
 HTML for creating the web structure.
