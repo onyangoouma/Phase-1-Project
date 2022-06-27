@@ -1,7 +1,5 @@
 # Phase-1-Project
 My Daily news
-# My Daily News Web App
-
 
 #### By Jackson ouma
 ## Description
